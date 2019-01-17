@@ -1,6 +1,6 @@
 # Scraping ( Laravel + Goutte Library )
 
-Obtain the comments of a restaurant booking website through webscraping; for this, I used the PHP Laravel 5.7 framework and the Goutte library to perform scraping.
+Obtain the reviews of a restaurant booking website through webscraping; for this, I used the PHP Laravel 5.7 framework and the Goutte library to perform scraping.
 
 ## Disclaimer
 
@@ -15,7 +15,7 @@ This repository/project is intended for Educational Purposes ONLY. It is not int
 Clone project
 
 ```bash
-https://github.com/moiseshp/reviews-scraping.git
+git clone https://github.com/moiseshp/reviews-scraping.git
 ```
 
 Go to the project folder
@@ -50,7 +50,7 @@ php artisan migrate
 
 The artisan command does the following:
 - First, you get a list of all the **possible restaurants** that the platform has.
-- Second, you go through each restaurant obtained and keep **all the comments** that the restaurant had.
+- Second, you go through each restaurant obtained and keep **all the reviews** that the restaurant had.
 - Finally, save the comments for each restaurant in the table **reviews**
 
 ```python
